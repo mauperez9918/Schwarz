@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Gabarito:wght@400;500;600;700;800;900&family=Hind:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap");
+
+/* Variables de colores */
+
+:root {
+  --color-primario: #1b3864;
+  --color-blanco: #ffffff;
+  --negro: #01070f;
+  --fondo-gris: #e9e9e9;
+}
+
+/* General */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Hind", sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--fondo-gris);
+}
+
+.main-content {
+  width: 80%;
+  height: 100%;
+  min-height: 80vh;
+  background-color: var(--color-blanco);
+}
+
+h2 {
+  font-size: 30px;
+  color: var(--color-primario);
+  font-weight: 400;
+}
