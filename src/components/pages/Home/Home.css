@@ -22,8 +22,9 @@
 
 .container .banner {
   display: block;
-  max-width: 100%;
-  height: auto;
+  width: 1920px;
+  height: 794px;
+  object-fit: cover;
 }
 
 /* Company Section */
@@ -34,7 +35,7 @@
   display: flex;
   align-items: center;
   width: 90%;
-  height: 450px;
+  height: 400px;
   border-radius: 10px;
   box-shadow: 2px 2px 15px 0px rgba(0, 0, 0, 0.25);
 }
@@ -55,20 +56,20 @@
 
 .popular-section {
   width: 90%;
-  height: 300px;
+  height: 310px;
   margin: 30px 0px;
 }
 
 .populars-products {
   margin-top: 15px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 100%;
 }
 
 .popular-product {
-  width: 215px;
-  height: 215px;
+  width: 200px;
+  height: auto;
 }
 
 /* Map Section */
@@ -78,7 +79,7 @@
   border-radius: 10px;
   box-shadow: 2px 2px 15px 0px rgba(0, 0, 0, 0.25);
   width: 90%;
-  height: 450px;
+  height: 400px;
   display: flex;
   align-items: center;
   background-color: var(--color-blanco);

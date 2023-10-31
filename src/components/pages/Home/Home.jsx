@@ -7,7 +7,7 @@ const Home = () => {
         <div className="container">
           <img
             className="banner"
-            src="https://res.cloudinary.com/dwpppqzr4/image/upload/v1698601544/Schwarz/banner-image_fnql7l.webp"
+            src="https://res.cloudinary.com/dwpppqzr4/image/upload/v1698738339/Schwarz/9a0c598205fe88cc3c021290781ec2b7_sdkvge.jpg"
           />
         </div>
 

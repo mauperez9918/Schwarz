@@ -1,3 +1,48 @@
+/* Logo footer */
+
+.logo-footer {
+  width: 190px;
+  height: 50px;
+}
+
 footer {
-  height: 190px;
+  position: relative;
+  height: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* All footer content */
+.footer-content {
+  width: 80%;
+}
+
+/* Footer info */
+
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.devs-info {
+  position: absolute;
+  bottom: 0;
+  left: 40%;
+  margin: 0 auto;
+  width: 320px;
+  height: 60px;
+  border-radius: 120px 120px 0px 0px;
+  background: var(--gris-claro, #f3f3f3);
+  box-shadow: 2px 2px 15px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.align {
+  display: flex;
+  align-items: center;
 }
