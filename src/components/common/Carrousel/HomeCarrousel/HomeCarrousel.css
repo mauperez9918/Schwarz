@@ -1,0 +1,12 @@
+.carrousel-title {
+  width: 90%;
+  text-align: left;
+}
+
+.carrousel-section {
+  width: 90%;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

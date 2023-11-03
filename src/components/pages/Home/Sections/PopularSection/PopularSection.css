@@ -1,0 +1,19 @@
+/* Products Section */
+
+.popular-section {
+  width: 90%;
+  height: 310px;
+  margin: 30px 0px;
+}
+
+.populars-products {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.popular-product {
+  width: 200px;
+  height: auto;
+}

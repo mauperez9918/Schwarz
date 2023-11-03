@@ -3,32 +3,42 @@ import "./Navbar.css";
 import { useEffect, useState } from "react";
 
 const Navbar = () => {
-  
-  const [currentPage, setCurrentPage] = useState('');
+  const [currentPage, setCurrentPage] = useState("");
   const location = useLocation();
 
-  useEffect(()=>{
-    let lastPath = location.pathname.split("/").pop()
-    setCurrentPage(lastPath)
-  })
+  useEffect(() => {
+    let lastPath = location.pathname.split("/").pop();
+    if (lastPath == "home" || lastPath == "") {
+      setCurrentPage("home");
+    }
+  });
 
   return (
     <>
-      <header className={`${ currentPage === 'home' ?  '' : 'color-secundario'}`}>
-        <div   className="navbar">
+      <header className={`${currentPage === "home" ? "" : "color-secundario"}`}>
+        <div className="navbar">
           <img
             className="logo"
             src="https://res.cloudinary.com/dwpppqzr4/image/upload/v1698600334/Schwarz/image_nfqmbr.png"
           />
           <ul>
             <li>
-              <Link to="/" onClick={() => setCurrentPage('home')}>INICIO</Link>
+              <Link to="/" onClick={() => setCurrentPage("home")}>
+                INICIO
+              </Link>
             </li>
             <li>
-              <Link to="/categorias" onClick={() => setCurrentPage('categories')}>CATEGORÍAS</Link>
+              <Link
+                to="/categorias"
+                onClick={() => setCurrentPage("categories")}
+              >
+                CATEGORÍAS
+              </Link>
             </li>
             <li>
-              <Link to="/contact" onClick={() => setCurrentPage('contact')}>CONTACTO</Link>
+              <Link to="/contact" onClick={() => setCurrentPage("contact")}>
+                CONTACTO
+              </Link>
             </li>
           </ul>
         </div>
