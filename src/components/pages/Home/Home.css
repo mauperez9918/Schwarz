@@ -7,6 +7,7 @@
 
 .container {
   position: relative;
+  overflow: hidden;
 }
 
 .container::before {
@@ -123,12 +124,15 @@
   left: 50%;
   transform: translateX(-50%);
   top: -50px;
-  width: 80%;
+  width: 85%;
   height: 100px;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   box-shadow: 2px 2px 15px 0px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
   background-color: var(--color-blanco);
+  padding: 20px;
 }
 
 .elipse {
@@ -136,6 +140,22 @@
   border: 1px solid var(--fondo-gris);
   width: 60px;
   height: 60px;
-  display: grid;
-  place-content: center;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.info-item-text{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }

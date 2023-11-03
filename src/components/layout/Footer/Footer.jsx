@@ -22,16 +22,16 @@ const Footer = () => {
                 <path
                   d="M24.8438 5.625H5.15625C3.86183 5.625 2.8125 6.67433 2.8125 7.96875V22.0312C2.8125 23.3257 3.86183 24.375 5.15625 24.375H24.8438C26.1382 24.375 27.1875 23.3257 27.1875 22.0312V7.96875C27.1875 6.67433 26.1382 5.625 24.8438 5.625Z"
                   stroke="#1B3864"
-                  stroke-width="1.875"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="1.875"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
                 <path
                   d="M6.5625 9.375L15 15.9375L23.4375 9.375"
                   stroke="#1B3864"
-                  stroke-width="1.875"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="1.875"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
               info@schwarzlab.com
@@ -48,15 +48,15 @@ const Footer = () => {
                 <path
                   d="M15 12.5C16.3261 12.5 17.5979 11.9732 18.5355 11.0355C19.4732 10.0979 20 8.82608 20 7.5C20 6.17392 19.4732 4.90215 18.5355 3.96447C17.5979 3.02678 16.3261 2.5 15 2.5C13.6739 2.5 12.4021 3.02678 11.4645 3.96447C10.5268 4.90215 10 6.17392 10 7.5C10 8.82608 10.5268 10.0979 11.4645 11.0355C12.4021 11.9732 13.6739 12.5 15 12.5Z"
                   stroke="#1B3864"
-                  stroke-width="2.5"
-                  stroke-linejoin="round"
+                  strokeWidth="2.5"
+                  strokeLinejoin="round"
                 />
                 <path
                   d="M15 12.5V23.75M10 20H7.5L2.5 27.5H27.5L22.5 20H20"
                   stroke="#1B3864"
-                  stroke-width="2.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="2.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
               Reparto Chanis, Nro. 6-A, Vía Principal, Diagonal al Banco

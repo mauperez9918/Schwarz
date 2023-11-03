@@ -24,6 +24,24 @@
   font-family: "Hind", sans-serif;
 }
 
+/* clases default */
+.flex{
+  display: flex;
+}
+
+.text-body{
+  font-size: 16px;
+}
+
+.text-small{
+  font-size: 12px;
+}
+
+
+.color-secundario{
+  background: var(--color-primario);
+}
+
 main {
   display: flex;
   flex-direction: column;
