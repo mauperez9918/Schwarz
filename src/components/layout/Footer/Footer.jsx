@@ -75,7 +75,7 @@ const Footer = () => {
                   fill="#1B3864"
                 />
               </svg>
-              +54 242-4873531
+              +507 6612-5528
             </span>
             <span className="align">
               <svg
@@ -90,7 +90,7 @@ const Footer = () => {
                   fill="#1B3864"
                 />
               </svg>
-              +54 242-4873531
+              +507 6613-2273
             </span>
             <span className="align">
               <svg
@@ -105,7 +105,7 @@ const Footer = () => {
                   fill="#1B3864"
                 />
               </svg>
-              +54 242-4873531
+              224-3460
             </span>
           </div>
 
