@@ -1,5 +1,4 @@
-import Categories from "../components/pages/Categories/Categories";
-import Contact from "../components/pages/Contact/Contact";
+import ItemListContainer from "../components/pages/Categories/ItemList/ItemListContainer";
 import Home from "../components/pages/Home/Home";
 
 export const menuRoutes = [
@@ -9,13 +8,13 @@ export const menuRoutes = [
     Element: Home,
   },
   {
-    id: "categorias",
-    path: "/categorias",
-    Element: Categories,
+    id: "categories",
+    path: "/categories",
+    Element: ItemListContainer,
   },
   {
-    id: "contact",
-    path: "/contact",
-    Element: Contact,
+    id: "categoryName",
+    path: "/categories/:categoryName",
+    Element: ItemListContainer,
   },
 ];

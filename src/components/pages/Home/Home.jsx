@@ -10,6 +10,15 @@ const Home = () => {
     <>
       <main className="flex">
         <div className="container">
+          <div className="banner-content">
+            <div className="blue-bar"></div>
+            <div className="banner-text">
+              <h1 className="text-big">NEUMATICA</h1>
+              <span className="text-medium">
+                Cilindros, Electroválvulas, Filtros y mucho más.
+              </span>
+            </div>
+          </div>
           <img
             className="banner"
             src="https://res.cloudinary.com/dwpppqzr4/image/upload/v1698738339/Schwarz/9a0c598205fe88cc3c021290781ec2b7_sdkvge.jpg"

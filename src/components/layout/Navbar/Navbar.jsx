@@ -15,7 +15,7 @@ const Navbar = () => {
 
   return (
     <>
-      <header className={`${currentPage === "home" ? "" : "color-secundario"}`}>
+      <header className={`${currentPage === "home" ? "" : "second-navbar"}`}>
         <div className="navbar">
           <img
             className="logo"
@@ -29,15 +29,10 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                to="/categorias"
+                to="/categories"
                 onClick={() => setCurrentPage("categories")}
               >
                 CATEGORÍAS
-              </Link>
-            </li>
-            <li>
-              <Link to="/contact" onClick={() => setCurrentPage("contact")}>
-                CONTACTO
               </Link>
             </li>
           </ul>

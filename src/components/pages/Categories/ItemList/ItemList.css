@@ -1,0 +1,35 @@
+.categories-section {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 30px 0px;
+}
+
+.categories-list {
+  width: 20%;
+  padding: 10px;
+  background-color: var(--color-blanco);
+  border-radius: 5px;
+}
+
+.input-categories {
+  width: 80%;
+  height: 5%;
+  border-radius: 6px;
+  border: 1px solid var(--fondo-gris);
+  font-size: 16px;
+  padding: 5px;
+}
+
+.categories-list ul li {
+  margin: 5px 0px;
+  color: var(--color-primario);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.products-list {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+}
