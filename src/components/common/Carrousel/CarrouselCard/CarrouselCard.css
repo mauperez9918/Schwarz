@@ -1,11 +1,19 @@
 .carrousel-card {
   position: relative;
-  width: 300px;
+  width: 22%;
   height: 100%;
   display: flex;
   flex-direction: column;
   background-color: var(--color-blanco);
   box-shadow: 2px 2px 15px 0px rgba(0, 0, 0, 0.25);
+  transition: all 0.25s ease-out;
+}
+
+.carrousel-card:hover {
+  transform: translateY(-5px);
+  transform: scale(1.1);
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .blue-background {
@@ -44,7 +52,7 @@
 }
 
 .secondary-image-container img {
-  width: 80px;
+  width: 30%;
   height: 100%;
   object-fit: cover;
 }

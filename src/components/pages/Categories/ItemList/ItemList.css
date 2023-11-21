@@ -5,11 +5,16 @@
   margin: 30px 0px;
 }
 
+.categories-container {
+  width: 25%;
+}
+
 .categories-list {
-  width: 20%;
-  padding: 10px;
+  width: 100%;
   background-color: var(--color-blanco);
   border-radius: 5px;
+  height: 700px;
+  padding: 20px;
 }
 
 .input-categories {
@@ -28,8 +33,16 @@
   font-weight: 400;
 }
 
+.products-container {
+  width: 75%;
+}
+
+.products-title {
+  margin-left: 15px;
+}
+
 .products-list {
-  width: 80%;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
 }

@@ -22,6 +22,7 @@ header {
 
 .navbar ul {
   display: flex;
+  align-items: center;
 }
 
 .navbar li {
@@ -29,4 +30,15 @@ header {
   font-size: 16px;
   font-weight: 600;
   padding: 0px 15px;
+}
+
+.cart-elipse {
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.5);
 }

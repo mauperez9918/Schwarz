@@ -45,10 +45,22 @@ h2 {
 }
 
 h3 {
-  font-size: 40px;
+  margin-bottom: 15px;
+  font-size: 30px;
   color: var(--color-primario);
   font-weight: 400;
   font-family: var(--gugi-font);
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--color-primario);
+}
+
+h5 {
+  font-size: 16px;
+  font-weight: 600px;
 }
 
 a {

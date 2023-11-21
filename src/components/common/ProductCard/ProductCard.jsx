@@ -6,7 +6,7 @@ const ProductCard = ({ product }) => {
       <img src={product.image} />
       <div className="card-info">
         <h4>{product.name}</h4>
-        <button>Agregar al carrito</button>
+        <button className="text-body">Agregar al carrito</button>
       </div>
     </div>
   );

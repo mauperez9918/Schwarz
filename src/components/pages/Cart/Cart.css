@@ -1,0 +1,78 @@
+.cart-section {
+  width: 75%;
+  height: 550px;
+  background-color: red;
+  margin-top: 60px;
+  background: #fff;
+  box-shadow: 2px 2px 15px 0px rgba(0, 0, 0, 0.25);
+}
+
+.cart {
+  display: flex;
+  justify-content: space-evenly;
+  height: 100%;
+  margin-top: 25px;
+}
+
+/* Products in cart */
+
+.cart-items {
+  width: 60%;
+  height: 90%;
+  background: #f3f3f3;
+  box-shadow: 2px 2px 15px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* Form section */
+
+.form-section {
+  width: 35%;
+  height: 90%;
+}
+
+/* Form */
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 90%;
+}
+
+/* Inputs */
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  color: #505050;
+  width: 100%;
+  padding: 12px;
+  height: 40px;
+  border: none;
+  border-radius: 4px 4px 0px 0px;
+  border-bottom: 1px solid var(--gtis, #505050);
+  background: var(--gris-claro, #f3f3f3);
+}
+
+textarea {
+  border-radius: 4px;
+  background: var(--gris-claro, #f3f3f3);
+  height: 200px;
+  box-shadow: 2px 2px 15px 0px rgba(0, 0, 0, 0.25);
+}
+
+input[type="submit"] {
+  border-radius: 5px;
+  border: none;
+  background: var(--color-primario);
+  color: var(--color-blanco);
+  display: inline-flex;
+  font-size: 16px;
+  height: 40px;
+  padding: 0px 15px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 5px;
+}
